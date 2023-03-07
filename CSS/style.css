@@ -1,0 +1,90 @@
+
+:root{
+    --color1:#B7C4CF;
+    --color2:#EEE3CB;
+    --color3:#D7C0AE;
+    --color4:#967E76;
+    --color5: rgb(136, 207, 207);
+
+}
+
+
+
+header{
+   
+}
+
+.tarjeta-nombre{
+    font-size:larger;
+}
+
+.row{
+    display:flex;
+    align-items:center;
+}
+
+.loguito{
+    height:auto;
+    max-width: 30px;
+    padding: 0%;
+}
+ 
+.seccion1{
+    background-color:var(--color5);
+    padding-inline: 10%;
+    padding-block: 10%;
+}
+
+#profesion{
+    font-size: larger;
+    font-weight: bold;
+}
+.miTrabajo{
+    background-color: black;
+    color:  white;
+}
+
+.miFoto{
+    border: 3px solid white;
+    border-radius: 50%;
+    height:auto;
+    max-width: 30%;
+    padding: 0%;
+}
+  
+
+.tope{
+    border: 1px solid black;
+    
+}
+
+.tarjeta{
+    font-size: small;
+    
+    
+}
+
+.boutMe{
+    
+    justify-content: center;
+}
+
+.knowMore{
+    font-size: larger;
+    font-weight: bold;
+    justify-content: center;
+    padding: 2%;
+}
+
+.logoMedio{
+    height:auto;
+    width: 8px;
+    padding-left:12%;
+    padding-right:12%;
+}
+
+.resume{
+    border-right: 1px solid var(--color4);
+    font-size:smaller;
+}
+
