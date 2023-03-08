@@ -8,16 +8,25 @@
 
 }
 
-
-
-header{
-   
+.tope{
+    border: 1px solid black;
+    
 }
 
 .tarjeta-nombre{
     font-size:larger;
+    text-decoration: none;
+    font: black;
 }
 
+.tarjeta{
+    font-size: small;
+    list-style-type: none;
+    text-decoration: none;
+    
+    
+    
+}
 .row{
     display:flex;
     align-items:center;
@@ -42,6 +51,8 @@ header{
 .miTrabajo{
     background-color: black;
     color:  white;
+    text-decoration: none;
+    justify-content: center;
 }
 
 .miFoto{
@@ -53,17 +64,9 @@ header{
 }
   
 
-.tope{
-    border: 1px solid black;
-    
-}
 
-.tarjeta{
-    font-size: small;
-    list-style-type: none;
-    
-    
-}
+
+
 
 .boutMe{
     
