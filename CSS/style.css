@@ -5,13 +5,20 @@
     --color3:#D7C0AE;
     --color4:#967E76;
     --color5: rgb(136, 207, 207);
-
 }
+
 
 .tope{
     border: 1px solid black;
-    
+   
 }
+
+@media only screen and (min-width: 500px){
+    .dropdown{
+        re
+    }
+}
+
 
 .tarjeta-nombre{
     font-size:larger;
@@ -23,9 +30,6 @@
     font-size: small;
     list-style-type: none;
     text-decoration: none;
-    
-    
-    
 }
 .row{
     display:flex;
@@ -53,6 +57,8 @@
     color:  white;
     text-decoration: none;
     justify-content: center;
+    padding: 1%;
+    margin-bottom: 10px;
 }
 
 .miFoto{
@@ -62,14 +68,8 @@
     max-width: 30%;
     padding: 0%;
 }
-  
-
-
-
-
 
 .boutMe{
-    
     justify-content: center;
 }
 
