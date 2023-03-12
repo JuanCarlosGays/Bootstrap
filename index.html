@@ -9,21 +9,27 @@
     <title>mi perfil en bootstrap</title>
 </head>
 <header class="container tope">
-    <div class="row dropup-center">
-        
-        <a class="col-sm-2 tarjeta-nombre" ><h1 class="tarjeta-nombre2">Juan Carlos Gays</h1></a>
-        
+    
+    <nav class="row navbar navbar-expand-md navbar-light nb-dark justify-content-between">
+        <a href="#" class="navbar-brand col-4">
+           <h1 class="tarjeta-nombre">Juan Carlos Gays</h1>
+        </a>
+        <button class="navbar-toggler col-2" data-bs-target="#menu" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse col-6" id="menu">
+            <ul class="nav nav-fills">
+                <li class="nav-item tarjeta"><a class='nav-link' href='#'>Home</a></li>
+                <li class="nav-item tarjeta"><a class='nav-link' href="#aboutMe">About</a></li> 
+                <li class="nav-item tarjeta"><a class='nav-link' href='#skills'>Skills</a></li> 
+                <li class="nav-item tarjeta"><a class='nav-link' href='#resume'>Resume</a></li>
+               <li class="nav-item tarjeta"> <a class='nav-link'  href='#proyectos'>Projects</a></li>
+                <li class="nav-item tarjeta"><a class='nav-link' href='#contacto'>Contact</a></li>
+            </ul>
+        </div>
+       
+        <a href='https://www.linkedin.com/in/juancarlosgays/' class="col"><img class="loguito " src="imagenes/linkedin.png" alt="linkedin"></a>
+        <a href='https://github.com/JuanCarlosGays/' class="col"><img class=" loguito" src="imagenes/github.png" alt="github"></a>
+    </nav>
    
-        <a href='#' class="col tarjeta"><li>Home</li></a>
-        <a href="#aboutMe" class="col tarjeta"><li>About</li></a>
-        <a href='#skills' class="col tarjeta"><li>Skills</li></a>
-        <a href='#resume' class="col tarjeta"><li>Resume</li></a>
-        <a href='#proyectos' class="col tarjeta"><li>Projects</li></a>
-        <a href='#contacto' class="col tarjeta"><li>Contact</li></a>
-        <a href='https://www.linkedin.com/in/juancarlosgays/' class="col"><img class="loguito text-center" src="imagenes/linkedin.png" alt="linkedin"></a>
-    <a href='https://github.com/JuanCarlosGays' class="col"><img class=" loguito" src="imagenes/github.png" alt="github"></a>
-        
-    </div>
 </header>
 <body>
     <main>
@@ -197,13 +203,15 @@
                     <p class="blanquito">Let´s get in touch</p>
                     <p>I enjoy discussing new projects and design challenges. Please share as much info as possible so  I can get the most out of our first catch-up
                     </p>
+                    <br>
+                    <a href="#">back to top</a>
                 </div>
                 <div class="col">
                     <p class="blanquito">Do you want so send me an email?</p>
                     <p>What is your name?</p>
                     <p>Your Email Address:</p>
                     <p>How can I help you?</p>
-                    <button class="col miTrabajo">Send-></button>
+                    <input type="submit" class="col miTrabajo" value="Send->">
 
                 </div>
             </div>

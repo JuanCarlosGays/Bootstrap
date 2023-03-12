@@ -13,15 +13,11 @@
    
 }
 
-@media only screen and (min-width: 500px){
-    .dropdown{
-        re
-    }
-}
+
 
 
 .tarjeta-nombre{
-    font-size:larger;
+    font-size:large;
     text-decoration: none;
     
 }
@@ -30,6 +26,8 @@
     font-size: small;
     list-style-type: none;
     text-decoration: none;
+
+
 }
 .row{
     display:flex;
@@ -39,7 +37,8 @@
 .loguito{
     height:auto;
     max-width: 30px;
-    padding: 0%;
+    justify-items:left;
+    
 }
  
 .seccion1,.seccion6{
