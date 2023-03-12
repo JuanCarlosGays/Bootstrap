@@ -4,7 +4,7 @@
     --color2:#EEE3CB;
     --color3:#D7C0AE;
     --color4:#967E76;
-    --color5: rgb(136, 207, 207);
+    --color5: rgb(161, 175, 202);
 }
 
 
@@ -23,7 +23,7 @@
 .tarjeta-nombre{
     font-size:larger;
     text-decoration: none;
-    font: black;
+    
 }
 
 .tarjeta{
@@ -71,6 +71,8 @@
 
 .boutMe{
     justify-content: center;
+    
+   
 }
 
 .knowMore{
