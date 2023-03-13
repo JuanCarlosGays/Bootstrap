@@ -17,8 +17,8 @@
 
 
 .tarjeta-nombre{
-    font-size:large;
-    text-decoration: none;
+    font-size:medium;
+    
     
 }
 
@@ -126,6 +126,3 @@ ul{
     font-weight: 400;
     color:white;
 }
-
-/* ----------------- */
-
