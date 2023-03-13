@@ -4,7 +4,7 @@
     --color2:#EEE3CB;
     --color3:#D7C0AE;
     --color4:#967E76;
-    --color5: rgb(136, 207, 207);
+    --color5: rgb(161, 175, 202);
 }
 
 
@@ -17,15 +17,17 @@
 
 
 .tarjeta-nombre{
-    font-size:larger;
+    font-size:large;
     text-decoration: none;
-    font: black;
+    
 }
 
 .tarjeta{
     font-size: small;
     list-style-type: none;
     text-decoration: none;
+
+
 }
 .row{
     display:flex;
@@ -35,7 +37,8 @@
 .loguito{
     height:auto;
     max-width: 30px;
-    padding: 0%;
+    justify-items:left;
+    
 }
  
 .seccion1,.seccion6{
@@ -67,6 +70,8 @@
 
 .boutMe{
     justify-content: center;
+    
+   
 }
 
 .knowMore{
