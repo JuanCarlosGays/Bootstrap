@@ -13,11 +13,7 @@
    
 }
 
-@media only screen and (min-width: 500px){
-    .dropdown{
-        re
-    }
-}
+
 
 
 .tarjeta-nombre{
@@ -125,3 +121,6 @@ ul{
     font-weight: 400;
     color:white;
 }
+
+/* ----------------- */
+
